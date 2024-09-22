@@ -1,1 +1,1 @@
-# TelegramSpamSeltBot
+# TelegramSpamSelfBot
