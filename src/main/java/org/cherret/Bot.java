@@ -22,7 +22,7 @@ public class Bot {
         try (SimpleTelegramClientFactory clientFactory = new SimpleTelegramClientFactory()) {
             APIToken apiToken = new APIToken(api_id, hash_code);
             TDLibSettings settings = TDLibSettings.create(apiToken);
-            Path sessionPath = Paths.get("example-tdlight-session");
+            Path sessionPath = Paths.get("tdlight-session");
             settings.setDatabaseDirectoryPath(sessionPath.resolve("data"));
             settings.setDownloadedFilesDirectoryPath(sessionPath.resolve("downloads"));
 
